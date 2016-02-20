@@ -34,8 +34,8 @@ This widget added from your site share buttons from Yandex
 
 ### Resources
 
-* [Oficial API  Yandex share Button](https://tech.yandex.ru/share/doc/dg/add-docpage/)]
-* [Yii Framework](http://yiiframework.com/)]
+* [Oficial API  Yandex share Button](https://tech.yandex.ru/share/doc/dg/add-docpage/)
+* [Yii Framework](http://yiiframework.com/)
 
 ### Requirements
 
@@ -81,28 +81,28 @@ use elgorm\sharebuttons\ShareButtons;
 
 Available services:
 
-    *blogger — Blogger (https://blogger.com)
-    *delicious — Delicious (https://delicious.com)
-    *digg — Digg (http://digg.com/)
-    *evernote — Evernote (https://evernote.com)
-    *facebook — Facebook (https://www.facebook.com/)
-    *gplus — Google+(https://plus.google.com/)
-    *linkedin — LinkedIn(https://www.linkedin.com/)
-    *lj — Живой Журнал (http://www.livejournal.com/)
-    *moimir — Мой Мир (https://my.mail.ru/)
-    *odnoklassniki — Одноклассники.ru (http://ok.ru/)
-    *pinterest — Pinterest (https://www.pinterest.com/) (требуется указать атрибут image)
-    *pocket — Pocket (https://getpocket.com)
-    *qzone — Surfingbird (http://surfingbird.ru/)
-    *renren — Renren (http://www.renren.com/)
-    *sinaWeibo — Sina Weibo (http://www.weibo.com)
-    *surfingburd — Surfingbird (http://surfingbird.ru/)
-    *tencentWeibo — Tencent Weibo (http://t.qq.com/)
-    *tumblr — Tumblr (https://www.tumblr.com/)
-    *twitter — Twitter (http://twitter.com/)
-    *viber — Viber (https://www.viber.com/ru/)
-    *vkontakte — ВКонтакте (https://vk.com/)
-    *whatsapp — WhatsApp (https://www.whatsapp.com/)
+    *blogger — [Blogger] (https://blogger.com)
+    *delicious — [Delicious] (https://delicious.com)
+    *digg — [Digg] (http://digg.com/)
+    *evernote — [Evernote] (https://evernote.com)
+    *facebook — [Facebook] (https://www.facebook.com/)
+    *gplus — [Google+](https://plus.google.com/)
+    *linkedin — [LinkedIn](https://www.linkedin.com/)
+    *lj — [Живой Журнал] (http://www.livejournal.com/)
+    *moimir — [Мой Мир] (https://my.mail.ru/)
+    *odnoklassniki — [Одноклассники.ru] (http://ok.ru/)
+    *pinterest — [Pinterest] (https://www.pinterest.com/) (требуется указать атрибут image)
+    *pocket — [Pocket] (https://getpocket.com)
+    *qzone — [Surfingbird] (http://surfingbird.ru/)
+    *renren — [Renren] (http://www.renren.com/)
+    *sinaWeibo — [Sina Weibo] (http://www.weibo.com)
+    *surfingburd — [Surfingbird] (http://surfingbird.ru/)
+    *tencentWeibo — [Tencent Weibo] (http://t.qq.com/)
+    *tumblr — [Tumblr] (https://www.tumblr.com/)
+    *twitter — [Twitter] (http://twitter.com/)
+    *viber — [Viber] (https://www.viber.com/ru/)
+    *vkontakte — [ВКонтакте] (https://vk.com/)
+    *whatsapp — [WhatsApp] (https://www.whatsapp.com/)
 
 
 # License
