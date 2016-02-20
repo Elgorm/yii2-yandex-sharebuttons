@@ -1,5 +1,5 @@
 <?php
-namespace app\components\shareButtons;
+namespace elgorm\sharebuttons;
 use yii\base\Widget;
 
 class ShareButtons extends Widget{
