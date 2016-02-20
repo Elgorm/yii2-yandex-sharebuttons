@@ -1,0 +1,22 @@
+{
+    "name": "elgorm/yii2-yandex-sharebuttons",
+    "description":"Yandex share buttons for Yii2",
+    "type": "yii2-widget",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "elgorm",
+            "email": "yii2widget@4ml.su"
+        }
+    ],    
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+        "elgorm/yii2-ajaxcrud": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "elgorm\\sharebuttons\\": "src/"
+        }
+    }
+}
