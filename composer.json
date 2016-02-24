@@ -1,7 +1,7 @@
 {
     "name": "elgorm/yii2-yandex-sharebuttons",
     "description":"Yandex share buttons for Yii2",
-    "type": "yii2-widget",
+    "type": "yii2-extension",
     "license": "Apache-2.0",
     "authors": [
         {
