@@ -84,7 +84,7 @@ use elgorm\sharebuttons\ShareButtons;
 
 Available services:
 
-    *blogger — [Blogger](https://blogger.com)
+    *blogger — *[Blogger](https://blogger.com)
     *delicious — [Delicious](https://delicious.com)
     *digg — [Digg](http://digg.com/)
     *evernote — [Evernote](https://evernote.com)
