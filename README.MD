@@ -52,7 +52,7 @@ Edit your `composer.json` and add:
 ```json
 {
 		"require": {
-				"composer require elgorm/yii2-yandex-sharebuttons": "*"
+				"composer require elgorm/yii2-yandex-sharebuttons": "stable"
 		}
 }
 ```
@@ -73,6 +73,9 @@ use elgorm\sharebuttons\ShareButtons;
             'lang'=>'en',
             'counter'=>true,
             'title:twitter'=>'Yandex', //a different title for the different networks
+            'id'='id1', // not added preffix data-
+            'class'=>'class1 class2', // not added preffix data-
+            'tag'=>'span', //default "div" 
         ]
     ]
 );?>

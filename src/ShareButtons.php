@@ -9,20 +9,33 @@ class ShareButtons extends Widget{
 
     public function init(){
         parent::init();
+        if (!isset($this->clientOptions['id'])) {
+            $this->clientOptions['id'] = $this->getId();
+        }
+
+        if (!isset($this->clientOptions['tag'])) {
+            $this->clientOptions['tag'] = 'div';
+        }
+
         foreach ($this->clientOptions as $key=>$option){
-            if (is_bool($option)){
-                $this->options.="data-".$key." ";
+            if (mb_strtolower($key)!='id' && mb_strtolower($key)!='class' && mb_strtolower($key)!='tag'){
+                if (is_bool($option)){
+                    $this->options["data-".$key]="";
+                }
+                else {
+                    $this->options["data-".$key]=$option;
+                }
             }
             else {
-                $this->options.="data-".$key.'="'.$option.'" ';
+                if (mb_strtolower($key)!='tag'){
+                    $this->options[$key]=$option;
+                }
             }
-
         }
-        $this->options=trim($this->options);
     }
 
     public function run(){
-        return $this->render('widget',['options'=>$this->options]);
+        return $this->render('widget',['options'=>$this->options,'tag'=>$this->clientOptions['tag']]);
     }
 
 }
