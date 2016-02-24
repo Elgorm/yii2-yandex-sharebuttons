@@ -52,7 +52,7 @@ Edit your `composer.json` and add:
 ```json
 {
 		"require": {
-				"composer require elgorm/yii2-yandex-sharebuttons": "dev-stable"
+				"composer require elgorm/yii2-yandex-sharebuttons": "@stable"
 		}
 }
 ```
