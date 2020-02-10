@@ -111,3 +111,6 @@ Available services:
 # License
 
 The extension was released under the [Apache-2.0](https://opensource.org/licenses/Apache-2.0), so you'll find the latest version on [GitHub](https://github.com/Elgorm/yii2-yandex-sharebuttons).
+
+# Donations
+[![Beerpay](https://beerpay.io/Elgorm/yii2-yandex-sharebuttons/badge.svg)](https://beerpay.io/Elgorm/yii2-yandex-sharebuttons)
