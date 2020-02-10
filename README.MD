@@ -52,9 +52,15 @@ Edit your `composer.json` and add:
 ```json
 {
 		"require": {
-				"composer require elgorm/yii2-yandex-sharebuttons": "^1.0@stable"
+				"elgorm/yii2-yandex-sharebuttons": "^1.0@stable"
 		}
 }
+```
+
+or run in console:
+
+```
+composer require elgorm/yii2-yandex-sharebuttons
 ```
 
 # Usage
@@ -85,6 +91,7 @@ use elgorm\sharebuttons\ShareButtons;
 Available services:
 
     *blogger — *[Blogger](https://blogger.com)
+    *collections — [ Яндекс.Коллекции](https://yandex.ru/collections/)
     *delicious — [Delicious](https://delicious.com)
     *digg — [Digg](http://digg.com/)
     *evernote — [Evernote](https://evernote.com)
@@ -96,10 +103,13 @@ Available services:
     *odnoklassniki — [Одноклассники.ru](http://ok.ru/)
     *pinterest — [Pinterest](https://www.pinterest.com/) (требуется указать атрибут image)
     *pocket — [Pocket](https://getpocket.com)
-    *qzone — [Surfingbird](http://surfingbird.ru/)
+	*qzone — [Surfingbird](http://surfingbird.ru/)
+    *reddit — [ Reddit](https://www.reddit.com/)
     *renren — [Renren](http://www.renren.com/)
     *sinaWeibo — [Sina Weibo](http://www.weibo.com)
+    *skype — [ Skype](https://www.skype.com/)
     *surfingburd — [Surfingbird](http://surfingbird.ru/)
+    *telegram — [Telegram](https://telegram.org/)
     *tencentWeibo — [Tencent Weibo](http://t.qq.com/)
     *tumblr — [Tumblr](https://www.tumblr.com/)
     *twitter — [Twitter](http://twitter.com/)
