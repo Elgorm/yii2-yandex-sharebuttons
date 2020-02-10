@@ -114,3 +114,4 @@ The extension was released under the [Apache-2.0](https://opensource.org/license
 
 # Donations
 [![Beerpay](https://beerpay.io/Elgorm/yii2-yandex-sharebuttons/badge.svg)](https://beerpay.io/Elgorm/yii2-yandex-sharebuttons)
+![Ethereum](https://s2.coinmarketcap.com/static/img/coins/32x32/1027.png?_=13149a1) Ethereum (ETH): 0x0ebA6D90697e20c2b9C030A6a2EDCde4D771a6ba
