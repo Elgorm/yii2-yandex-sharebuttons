@@ -74,14 +74,13 @@ use elgorm\sharebuttons\ShareButtons;
 <?= ShareButtons::widget(
     [
         'clientOptions'=>[
-            'services'=>'facebook,vkontakte,twitter', //attributes from official without preffix "data-"
-            'size'=>'s',
-            'lang'=>'en',
-            'counter'=>true,
-            'title:twitter'=>'Yandex', //a different title for the different networks
-            'id'='id1', // not added preffix data-
-            'class'=>'class1 class2', // not added preffix data-
-            'tag'=>'span', //default "div" 
+            'services' => 'facebook,vkontakte,twitter', //attributes from official without preffix "data-"
+            'size' => 's',
+            'lang' => 'en',
+            'title:twitter' => 'Yandex', //a different title for the different networks
+            'id' => 'id1', // not added preffix data-
+            'class' => 'class1 class2', // not added preffix data-
+            'tag' => 'span', //default "div" 
         ]
     ]
 );?>
